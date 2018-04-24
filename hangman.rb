@@ -64,25 +64,25 @@ class Hangman
     when 0 
       ["|","","","",""]
     when 1
-      ["|"," |","","",""] 
+      ["|"," |","","","" + "you got one wrong out of ten"] 
     when 2
-      ["|", " |","(oo)","",""] 
+      ["|", " |","(oo)","","" + "you got two out of ten wrong"] 
     when 3
-      ["|"," |","(oo)"," |",""] 
+      ["|"," |","(oo)"," |","" + "you got three out of ten wrong"] 
     when 4
-      ["|"," |","(oo)"," ||",""]  
+      ["|"," |","(oo)"," ||","" + "you got four out of ten wrong"]  
     when 5
-      ["|"," |","(oo)","/||",""]
+      ["|"," |","(oo)","/||","" + "you got five out of ten wrong you better step you your halfway to loosing"]
     when 6
-      ["|"," |","(oo)","/||\\",""] 
+      ["|"," |","(oo)","/||\\","" + "you got six out of ten wrong"] 
     when 7
-      ["|"," |","(oo)","/||\\","/"]
+      ["|"," |","(oo)","/||\\","/" + "you got seven out of ten wrong"]
     when 8
-      ["|"," |","(oo)","/||\\","/  \\"]
+      ["|"," |","(oo)","/||\\","/  \\" + "you got eight out of ten wrong"]
     when 9
-      ["|"," |","(ox)","/||\\","/  \\"]  
+      ["|"," |","(ox)","/||\\","/  \\" + "you got nine out of ten wrong you better get this one wright or you will lose"]  
     when 10
-      ["|"," |","(xx)","/||\\","/  \\"]          
+      ["|"," |","(xx)","/||\\","/  \\" + "you just lost"]          
     end
     
   end

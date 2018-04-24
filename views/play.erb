@@ -35,8 +35,6 @@
         <label>Enter a letter or attempt the full word: </label><br>
         <input type='text' name='string' />
         <br>
-        <input type="text" name="check" />
-        <br>
         <input type='submit' value='Guess!' />
       </form>
       <p>
@@ -45,6 +43,7 @@
         <%= toon[2] if toon != nil %><br>
         <%= toon[3] if toon != nil %><br>
         <%= toon[4] if toon != nil %>
+        <%= string %>
       </p>  
     </div>
   </body>

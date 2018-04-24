@@ -21,6 +21,7 @@ get '/play' do
   toon = my_game.make_guess(params)
   @session = session 
   session = my_game.set_new_session(@session) 
+  string = (@string)
   erb :play, :locals => {:display => my_game.display_content, 
-                         :toon => toon, :length => session["length"]}
+                         :toon => toon, :length => session["length"], :string => string}
 end 

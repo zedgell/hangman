@@ -72,7 +72,7 @@ class Hangman
     when 4
       ["|"," |","(oo)"," ||","" + "you got four out of ten wrong"]  
     when 5
-      ["|"," |","(oo)","/||","" + "you got five out of ten wrong you better step you your halfway to loosing"]
+      ["|"," |","(oo)","/||","" + "you got five out of ten wrong you better step up your halfway to loosing"]
     when 6
       ["|"," |","(oo)","/||\\","" + "you got six out of ten wrong"] 
     when 7
@@ -82,7 +82,7 @@ class Hangman
     when 9
       ["|"," |","(ox)","/||\\","/  \\" + "you got nine out of ten wrong you better get this one wright or you will lose"]  
     when 10
-      ["|"," |","(xx)","/||\\","/  \\" + "you just lost"]          
+      ["|"," |","(xx)","/||\\","/  \\"]          
     end
     
   end
